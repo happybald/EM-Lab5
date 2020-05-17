@@ -1,0 +1,23 @@
+﻿<Window x:Class="Лаб5_ЕМ.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаб5_ЕМ"
+        mc:Ignorable="d"
+        Title="Info" Height="643" Width="409" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="70" Margin="10,10,0,0" Text="Результатом даного етапу оцінки ризику є визначення середньої добової дози (ADD/LADD), формула розрахунку якої за інгаляційного впливу речовини з атмосферного повітря має вигляд :" TextWrapping="Wrap" VerticalAlignment="Top" Width="277"/>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="10,365,0,0" Text="Розрахунок індивідуального канцерогенного ризику CR здійснюють за формулою:
+CR = LADD * SF,
+де: LADD - середня добова доза протягом життя, мг/(кг * доба); -1 SF - фактор нахилу, (мг/(кг * доба)" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
+        <TextBlock HorizontalAlignment="Left" Height="133" Margin="10,434,0,0" Text="При оцінці ризиків для здоров'я, зумовлених впливом забруднювачів атмосферного повітря, доцільно орієнтуватися на систему критеріїв, рекомендовану у публікаціях ВООЗ:&#xA;
+> 10^-3 - Високий рівень ризику&#xA;
+10^-3 - 10^-4 - Середній рівень ризику&#xA;
+10^-4 - 10^-6 - Низький рівень ризику&#xA;
+&lt; 10^-6 - Мінімальний рівень ризику&#xA;
+" TextWrapping="Wrap" VerticalAlignment="Top" Width="277"/>
+
+        <Image Source="/images/formula.png" Stretch="Uniform" Grid.Column="0" Margin="10,99,26,282" />
+    </Grid>
+</Window>
